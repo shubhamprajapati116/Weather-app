@@ -59,6 +59,8 @@ It fetches live data from the **OpenWeatherMap API** and displays details like *
 ┣ 📜 weather.js
 ┗ 📜 README.md
 
+---
+
 📧 Contact
 For any queries:
 

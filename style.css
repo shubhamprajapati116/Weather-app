@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1e1e2f; /* Dark navy */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+.weather-result img {
+  width: 140px;
+  margin: 10px 0;
+}
+
+.weather-result h2 {
+  margin: 10px 0 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.weather-details {
+  border: rgb(9, 9, 9) solid 3px;
+  background: #2c2c3e; /* Dark gray */
+  border-radius: 12px;
+  color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  justify-content: space-around; /* equal spacing */
+  align-items: center;
+  margin-top: 15px;
+
+  gap: 2px; /* space between items */
+  flex-wrap: wrap; /* agar screen chhoti ho to next line me chala jaye */
+}
+.weather-details div {
+  background: rgba(20, 2, 2, 0.2);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}

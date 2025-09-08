@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+
+    <!-- User Input -->
+    <div class="input-section">
+      <input type="text" autocomplete="false" id="locationInput" placeholder="Enter city name" spellcheck="false">
+      <button id="getWeatherBtn">Submit</button>
+    </div>
+
+    <!-- Display Weather Data -->
+    <div id="weatherResult" class="weather-result">
+      <!-- Weather data dynamically show hoga -->
+    </div>
+
+    <!-- Error Message -->
+    <p id="errorMessage" class="error"></p>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
+
